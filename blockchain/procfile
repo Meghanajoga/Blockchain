@@ -1,1 +1,3 @@
-web: gunicorn app:app
+web: gunicorn distributed_hotel_node:app
+
+
